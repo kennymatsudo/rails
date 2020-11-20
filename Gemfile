@@ -1,14 +1,16 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.22.5'
+gem 'rake', '< 11.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg', '~> 0.12.2'
+gem 'pg', '~> 0.15.0'
 
 group :development, :test do 
-  gem 'rspec-rails', '2.9.0'
+  gem 'rspec-rails', '2.99.0'
+  gem 'test-unit'
 end
 
 # Gems used only for assets and not required

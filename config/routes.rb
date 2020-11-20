@@ -1,10 +1,8 @@
 Myapp::Application.routes.draw do
-<<<<<<< HEAD
-  resources :users
+  get "static_pages/home"
 
+  get "static_pages/help"
 
-=======
->>>>>>> c4edf28... init rails project
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
